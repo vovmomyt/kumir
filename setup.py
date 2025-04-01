@@ -5,14 +5,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="kumir",
-    version="0.1.0",
+    version="0.1.1",
     author="arli",
     author_email="volodya.artemev.1999@mail.ru",
     description="test package for kumir",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ваш_username/kumir",
-    packages=find_packages(),
+    url="https://github.com/vovmomyt/kumir",
+    packages=["kumir"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
